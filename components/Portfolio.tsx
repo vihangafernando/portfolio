@@ -186,7 +186,7 @@ const Portfolio = () => {
               {/* Orange Background */}
               <div className="relative w-64 h-80 md:w-96 md:h-96 bg-orange-600 rounded-2xl overflow-hidden mx-auto flex justify-center items-center">
                 <Image
-                  src="/portfolio/vihanga.png"
+                  src="/portfolio/vihanga1.png"
                   alt="Vihanga Fernando"
                   width={384}
                   height={500}
