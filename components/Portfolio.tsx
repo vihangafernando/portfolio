@@ -625,7 +625,7 @@ const Portfolio = () => {
       </section>
 
       <footer className="py-8 px-4 text-center text-gray-400">
-        <p>&copy; 2023 Vihanga Fernando. All rights reserved.</p>
+        <p>&copy; 2025 Vihanga Fernando. All rights reserved.</p>
       </footer>
     </div>
   );
