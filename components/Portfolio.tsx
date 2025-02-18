@@ -131,7 +131,7 @@ const Portfolio = () => {
           <div className="flex justify-between items-center h-16">
             <div className="-ml-[8%]">
               <a href="#" className="">
-                <img src="/logo1.png" alt="Logo" className="w-[50%] h-[30%]" />
+                <img src="/portfolio/logo1.png" alt="Logo" className="w-[50%] h-[30%]" />
               </a>
             </div>
 
@@ -182,7 +182,7 @@ const Portfolio = () => {
               {/* Orange Background */}
               <div className="relative w-64 h-80 md:w-96 md:h-96 bg-orange-600 rounded-2xl overflow-hidden mx-auto flex justify-center items-center">
                 <Image
-                  src="/your-repo-name/vihanga.png"
+                  src="/portfolio/vihanga.png"
                   alt="Vihanga Fernando"
                   width={384}
                   height={500}
@@ -468,7 +468,7 @@ const Portfolio = () => {
             <ProjectCard
               title="E-commerce Platform"
               description=" I designed and developed a full-featured e-commerce website for a company . utilizing REST APIs extensively for seamless data management and integration. The platform included secure user authentication, an intuitive shopping interface, and an admin panel for efficient inventory, order, and user management. Key features such as product browsing, a dynamic shopping cart, and a smooth checkout process ensured an optimized user experience."
-              image="/e-commerce.png?height=300&width=400"
+              image="/portfolio/e-commerce.png?height=300&width=400"
               technologies={["React.js", "Node.js", "My SQL", "REST API"]}
               link="https://grocerysdirect.com/"
             />
@@ -476,7 +476,7 @@ const Portfolio = () => {
               title="Restaurant Management Platform"
               description="This Restaurant Management Web Application with robust user and admin authentication, implementing logical role-based access where admins have full control. Using REST APIs extensively, the platform enables event catering bookings, food ordering, and efficient operation management, ensuring flexibility and a seamless user experience.
 "
-              image="/restaurent.png?height=300&width=400"
+              image="/portfolio/restaurent.png?height=300&width=400"
               technologies={[
                 "React.js",
                 "Node.js",
@@ -489,7 +489,7 @@ const Portfolio = () => {
             <ProjectCard
               title="Visa Agency Management Site"
               description="During my internship, I developed a dynamic visa consulting service website using Next.js, integrating REST APIs for seamless functionality. The platform allows users to submit inquiries, book exams, and create personalized plans effortlessly. Designed with smooth animations for a modern look, it also leverages server-side rendering to ensure optimal performance and user experience."
-              image="/image.png?height=300&width=400"
+              image="/portfolio/image.png?height=300&width=400"
               technologies={["Next.js", "TypeScript", "Framer Motion"]}
               link=""
             />
