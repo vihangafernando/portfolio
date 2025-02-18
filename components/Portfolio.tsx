@@ -588,7 +588,7 @@ const Portfolio = () => {
               <Github size={32} />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/vihanga-fernando-478498276/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-orange-500 transition-colors"
