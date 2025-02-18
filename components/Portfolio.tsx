@@ -181,7 +181,7 @@ const Portfolio = () => {
             <div className="relative w-[60%] lg:w-72 md:w-80 bg-white rounded-2xl p-6 shadow-lg flex flex-col items-center">
               {/* Orange Background */}
               <Image
-                src="/your-repo-name/vihanga.png" // Use the basePath manually
+                src="/portfolio/vihanga.png" // Use the basePath manually
                 alt="Vihanga Fernando"
                 width={384}
                 height={500}
