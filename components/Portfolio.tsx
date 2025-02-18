@@ -131,7 +131,11 @@ const Portfolio = () => {
           <div className="flex justify-between items-center h-16">
             <div className="-ml-[8%]">
               <a href="#" className="">
-                <img src="/portfolio/logo1.png" alt="Logo" className="w-[50%] h-[30%]" />
+                <img
+                  src="/portfolio/logo1.png"
+                  alt="Logo"
+                  className="w-[50%] h-[30%]"
+                />
               </a>
             </div>
 
@@ -295,6 +299,21 @@ const Portfolio = () => {
               <p className="text-gray-400">
                 Developed and maintained multiple client-facing applications,
                 focusing on performance optimization and user experience.
+              </p>
+            </motion.div>
+          </div>
+          <div className="space-y-8">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              className="bg-zinc-900 p-6 rounded-lg mt-[3%]"
+            >
+              <h3 className="text-xl font-bold mb-2">Software Engineer</h3>
+              <p className="text-orange-500 mb-4">Freelancer</p>
+              <p className="text-gray-400">
+                I have developed web applications using React, Next.js, Node.js,
+                .NET, and Java for global clients, delivering scalable,
+                high-performance solutions with clean and maintainable code.
               </p>
             </motion.div>
           </div>
