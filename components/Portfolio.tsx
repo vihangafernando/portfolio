@@ -180,15 +180,13 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative w-[60%] lg:w-72 md:w-80 bg-white rounded-2xl p-6 shadow-lg flex flex-col items-center">
               {/* Orange Background */}
-              <div className="relative w-64 h-80 md:w-96 md:h-96 bg-orange-600 rounded-2xl overflow-hidden mx-auto flex justify-center items-center">
-                <Image
-                  src="/vihanga.png"
-                  alt="Vihanga Fernando"
-                  width={384}
-                  height={500}
-                  className="rounded-2xl object-cover"
-                />
-              </div>
+              <Image
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/vihanga.png`}
+                alt="Vihanga Fernando"
+                width={384}
+                height={500}
+                className="rounded-2xl object-cover"
+              />
             </div>
 
             <div>
