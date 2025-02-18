@@ -281,7 +281,7 @@ const Portfolio = () => {
           >
             <h2 className="text-2xl font-bold text-orange-500">My Resume</h2>
             <a
-              href="/Vihanga Fernando.pdf"
+              href="/portfolio/Vihanga Fernando.pdf"
               download="Vihanga_Fernando.pdf"
               className="text-orange-500 hover:text-orange-400 text-2xl"
             >
