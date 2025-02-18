@@ -1,9 +1,11 @@
 import type { NextConfig } from "next";
 
-const nextConfig = {
-  reactStrictMode: true,
-  experimental: {
-    reactRefresh: true, // ✅ Ensures Fast Refresh is enabled
+const nextConfig: NextConfig = {
+  output: "export", // Required for static export (GitHub Pages)
+  basePath: "/portfolio", // Change to your GitHub repository name
+  assetPrefix: "/portfolio",
+  images: {
+    unoptimized: true, // Disable Next.js image optimization for GitHub Pages
   },
 };
 
