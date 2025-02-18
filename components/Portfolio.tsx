@@ -4,6 +4,7 @@ import type React from "react";
 import { useEffect, useState } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Github, Linkedin, Mail, Menu, X } from "lucide-react";
+import { FaArrowDown } from "react-icons/fa";
 import Image from "next/image";
 
 const NavLink = ({
@@ -254,12 +255,12 @@ const Portfolio = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-3xl font-bold mb-8 text-orange-500"
           >
-            About 
+            About
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-gray-400 text-lg  leading-[210%]"
+            className="text-gray-400 text-lg leading-[210%]"
           >
             I am an experienced Software Engineer with a goal-driven mindset and
             a strong foundation in the latest technologies. Currently pursuing a
@@ -271,6 +272,22 @@ const Portfolio = () => {
             learning and problem-solving, I strive to create impactful software
             that drives business success.
           </motion.p>
+
+          {/* My Resume Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            className="mt-8 flex items-center gap-3"
+          >
+            <h2 className="text-2xl font-bold text-orange-500">My Resume</h2>
+            <a
+              href="/Vihanga Fernando.pdf"
+              download="Vihanga_Fernando.pdf"
+              className="text-orange-500 hover:text-orange-400 text-2xl"
+            >
+              <FaArrowDown />
+            </a>
+          </motion.div>
         </div>
       </section>
 
