@@ -254,7 +254,7 @@ const Portfolio = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-3xl font-bold mb-8 text-orange-500"
           >
-            About Me
+            About 
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
